@@ -1,0 +1,39 @@
+/* colori
+    #14AAF5 azzurro bottone
+    #C9D0D4 grigio button
+    #2CC6AB verde background
+    #AB5DE6 viola
+    #FF9B00 arancio
+    #EC4A9D fucsia
+    #A3D116 verde pis
+*/
+
+html{
+    background-color: #f6f8f9 ;
+    
+}
+
+
+body{
+    margin: 0%;
+}
+
+.title{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    background-size: 20%;
+    height: 100px;
+}
+
+.logo{
+    width: 100px;
+    vertical-align: middle;
+  
+}
+
+.text{
+    font-family: "roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    vertical-align: middle;
+}
