@@ -60,9 +60,10 @@ body{
     padding-top: 1em; 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding-left: 5em;
+    padding-left: 70px;
     padding-bottom: 0.5em;
     border-bottom: solid 2px #f6f8f9;
+    
 }
 
 .bottone1{
@@ -70,7 +71,8 @@ body{
     background-color: #14AAF5;
     border-radius: 5px;
     border: none;
-    font-size: 20px;
+    padding: 10px 26px;
+    text-align: center;
 
 }
 
@@ -79,31 +81,113 @@ body{
     background-color: white;
     border-radius: 5px;
     border: 1px solid #C9D0D4;
-    font-size: 19px;
+    padding: 10px 26px;
   
 }
 
 #containerlist{
     background-color: white;
-    margin-top: 0px;
     width: 800px;
     height: auto;
     margin-top: 10px;
+    padding-bottom: 5px;
     
 }
 
 ul{
     list-style-type: none;
     font-size: 23px;
-    padding-left: 15px;
+    margin-top: 80px;
+    padding-left: 70px;
+
 }
 
 li{
+    font-family: "roboto", sans-serif;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 10px;
+    color: rgb(66, 64, 64);
+    
 }
 
+.editorial{
+   color: white;
+    background-color:#14AAF5;
+    border-radius:15px;
+    border: none;
+    padding: 10px 26px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 8px;
+}
 
-    
+.goals{
+    color: white;
+     background-color:#AB5DE6;
+     border-radius:15px;
+     border: none;
+     padding: 10px 26px;
+     text-align: center;
+     margin-left: 8px;
+     font-size: 14px;
+
+}
+
+.recruit{
+    color: white;
+     background-color:#2CC6AB;
+     border-radius:15px;
+     border: none;
+     padding: 10px 26px;
+     text-align: center;
+     margin-left: 8px;
+     font-size: 14px;
+
+}
+
+.mobile{
+    color: white;
+     background-color: #FF9B00;
+     border-radius:15px;
+     border: none;
+     padding: 10px 26px;
+     text-align: center;
+     margin-left: 8px;
+     font-size: 14px;
+
+}
+
+.web{
+    color: white;
+     background-color:#EC4A9D;
+     border-radius:15px;
+     border: none;
+     padding: 10px 26px;
+     text-align: center;
+     margin-left: 8px;
+     font-size: 14px;
+
+}
+
+.sales{
+    color: white;
+     background-color:#A3D116;
+     border-radius:15px;
+     border: none;
+     padding: 10px 26px;
+     text-align: center;
+     margin-left: 8px;
+     font-size: 14px;
+
+}
+
+.item{
+    font-size: 24px;
+}
+
+.checkIcon{
+    width: 32px;
+    height: 32px;
+    margin-right:8px;
 }
