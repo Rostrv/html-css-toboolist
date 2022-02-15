@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--logo e testo-->
     <header class="title">
@@ -19,8 +21,47 @@
     </header>
 
     <!--lista to do-->
-    <main>
+    <main id="site_main">
+        <nav class="site_nav">
+            <div class="buttons">
+                <button class="bottone1">Add task</button>
+                <button class="bottone2">Add section</button>
+                
+
+            </div>
+
+            <div id="containerlist">
+                <ul class="task">
+                    <h2 id="New_task">&#9660 New Task</h2> 
+                    <li class="conferma">&#x2713 Quarterly Newsletter <span id="blu">Editorial</span></li>
+                    
+                </ul>
+
+                <ul class="today">
+                    <h2 id="New_task">&#9660 Today</h2> 
+                    <li class="Check">&#x2713 Recruiting blog spot <span>Editorial</span></li>
+                    <li class="check">&#x2713 Mobile paa launch <span>Q1 Goals</span></li>
+                    <li class="none">&#10005 Interview john H. <span>Recruiting</span></li>
+                    <li class="check">&#x2713 Recruiting blog spot <span>Mobile</span>
+                    
+                </ul>
+
+                <ul class="upcoming">
+                    <h2 id="New_task">&#9660 Upcoming</h2> 
+                    <li class="none">&#10005 Schedule meeting with Alex
+                    <li class="check">&#x2713 Homepage refresh<span> Website</span></li>
+                    <li class="check">&#x2713 Onboard new sales team members<span> Sales</span></li>
+                    <li class="check">&#x2713 Review editorial calendar<span> Editorial</span></li>
+                </ul>
+
+
+            </div>
+
+
+
+        </nav>
 
     </main>
 </body>
+
 </html>
